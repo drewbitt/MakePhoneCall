@@ -1,6 +1,6 @@
 # MakePhoneCall
 
-Make a phone call from an audio clip with Twilio
+Make a phone call from an audio clip url with Twilio
 
 Requires python 3
 
@@ -16,6 +16,6 @@ auth_token = your_auth_token
 
 Run:
 
-```python
+```bash
 python main.py --from "+18881001000" -to "+188810010001" --audio_url "http://demo.twilio.com/docs/classic.mp3"
 ```
